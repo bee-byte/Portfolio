@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bee-byte/Portfolio/static/css/main.e3d93446.chunk.css",
+    "main.js": "/bee-byte/Portfolio/static/js/main.cbde8ff8.chunk.js",
+    "main.js.map": "/bee-byte/Portfolio/static/js/main.cbde8ff8.chunk.js.map",
+    "runtime-main.js": "/bee-byte/Portfolio/static/js/runtime-main.13ce58ee.js",
+    "runtime-main.js.map": "/bee-byte/Portfolio/static/js/runtime-main.13ce58ee.js.map",
+    "static/js/2.3b11bd64.chunk.js": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js",
+    "static/js/2.3b11bd64.chunk.js.map": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js.map",
+    "index.html": "/bee-byte/Portfolio/index.html",
+    "precache-manifest.a47fb12cb7971c6af92b43d89f2d33ab.js": "/bee-byte/Portfolio/precache-manifest.a47fb12cb7971c6af92b43d89f2d33ab.js",
+    "service-worker.js": "/bee-byte/Portfolio/service-worker.js",
+    "static/css/main.e3d93446.chunk.css.map": "/bee-byte/Portfolio/static/css/main.e3d93446.chunk.css.map",
+    "static/js/2.3b11bd64.chunk.js.LICENSE.txt": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bee-byte/Portfolio/static/media/background1.0045d3ce.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13ce58ee.js",
+    "static/js/2.3b11bd64.chunk.js",
+    "static/css/main.e3d93446.chunk.css",
+    "static/js/main.cbde8ff8.chunk.js"
+  ]
+}

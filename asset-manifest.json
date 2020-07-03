@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/bee-byte/Portfolio/static/css/main.ac796270.chunk.css",
-    "main.js": "/bee-byte/Portfolio/static/js/main.2cfc006c.chunk.js",
-    "main.js.map": "/bee-byte/Portfolio/static/js/main.2cfc006c.chunk.js.map",
+    "main.css": "/bee-byte/Portfolio/static/css/main.5f6b3e62.chunk.css",
+    "main.js": "/bee-byte/Portfolio/static/js/main.345be281.chunk.js",
+    "main.js.map": "/bee-byte/Portfolio/static/js/main.345be281.chunk.js.map",
     "runtime-main.js": "/bee-byte/Portfolio/static/js/runtime-main.13ce58ee.js",
     "runtime-main.js.map": "/bee-byte/Portfolio/static/js/runtime-main.13ce58ee.js.map",
-    "static/js/2.3b11bd64.chunk.js": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js",
-    "static/js/2.3b11bd64.chunk.js.map": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js.map",
+    "static/css/2.8ba139af.chunk.css": "/bee-byte/Portfolio/static/css/2.8ba139af.chunk.css",
+    "static/js/2.7cd92f5b.chunk.js": "/bee-byte/Portfolio/static/js/2.7cd92f5b.chunk.js",
+    "static/js/2.7cd92f5b.chunk.js.map": "/bee-byte/Portfolio/static/js/2.7cd92f5b.chunk.js.map",
     "index.html": "/bee-byte/Portfolio/index.html",
-    "precache-manifest.eb27bc95bab4355f2e0f317d68069279.js": "/bee-byte/Portfolio/precache-manifest.eb27bc95bab4355f2e0f317d68069279.js",
+    "precache-manifest.95486ea24103db44fe2e866860e8ae18.js": "/bee-byte/Portfolio/precache-manifest.95486ea24103db44fe2e866860e8ae18.js",
     "service-worker.js": "/bee-byte/Portfolio/service-worker.js",
-    "static/css/main.ac796270.chunk.css.map": "/bee-byte/Portfolio/static/css/main.ac796270.chunk.css.map",
-    "static/js/2.3b11bd64.chunk.js.LICENSE.txt": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/bee-byte/Portfolio/static/media/background1.0045d3ce.jpg"
+    "static/css/2.8ba139af.chunk.css.map": "/bee-byte/Portfolio/static/css/2.8ba139af.chunk.css.map",
+    "static/css/main.5f6b3e62.chunk.css.map": "/bee-byte/Portfolio/static/css/main.5f6b3e62.chunk.css.map",
+    "static/js/2.7cd92f5b.chunk.js.LICENSE.txt": "/bee-byte/Portfolio/static/js/2.7cd92f5b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bee-byte/Portfolio/static/media/image.2f178e1e.jpg",
+    "static/media/Home.css": "/bee-byte/Portfolio/static/media/image.b399fa0e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.13ce58ee.js",
-    "static/js/2.3b11bd64.chunk.js",
-    "static/css/main.ac796270.chunk.css",
-    "static/js/main.2cfc006c.chunk.js"
+    "static/css/2.8ba139af.chunk.css",
+    "static/js/2.7cd92f5b.chunk.js",
+    "static/css/main.5f6b3e62.chunk.css",
+    "static/js/main.345be281.chunk.js"
   ]
 }

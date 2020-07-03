@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b21aba8a12c2828bc7ec1f7ec7585fc8",
+    "revision": "3708435fa20cdcc56d095bc6a778981c",
     "url": "/bee-byte/Portfolio/index.html"
   },
   {
-    "revision": "9c8116af7a04db9cc333",
-    "url": "/bee-byte/Portfolio/static/css/main.e3d93446.chunk.css"
+    "revision": "e9cc168e0cafceece071",
+    "url": "/bee-byte/Portfolio/static/css/main.ac796270.chunk.css"
   },
   {
     "revision": "a23380477cf0f8dd1461",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bee-byte/Portfolio/static/js/2.3b11bd64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c8116af7a04db9cc333",
-    "url": "/bee-byte/Portfolio/static/js/main.cbde8ff8.chunk.js"
+    "revision": "e9cc168e0cafceece071",
+    "url": "/bee-byte/Portfolio/static/js/main.2cfc006c.chunk.js"
   },
   {
     "revision": "4707742fefeb46e1414d",

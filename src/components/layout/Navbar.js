@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ icon, title }) => {
   return (
-    <nav className="navbar bg-dark">
+    <nav className="navbar bg-primary">
       <h1>
         {title}
         <i className={icon}>favorite_border</i>
@@ -15,6 +15,12 @@ const Navbar = ({ icon, title }) => {
         </li>
         <li>
           <Link to="/Testimonials">Testimonials</Link>
+        </li>
+        <li>
+          <Link to="/Resume">Resume</Link>
+        </li>
+        <li>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
     </nav>

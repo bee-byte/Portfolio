@@ -28,7 +28,7 @@ const Navbar = ({ icon, title }) => {
 };
 
 Navbar.defaultProps = {
-  title: 'Welcome !',
+  title: 'Welcome to my World!',
   icon: 'material-icons',
 };
 

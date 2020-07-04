@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Resume.css';
 
 import { CardSlide } from 'react-card-slide/dist';
 
-const Resume = ({ title }) => {
+const Resume = () => {
   return (
     <CardSlide
       items={[
@@ -26,12 +25,12 @@ const Resume = ({ title }) => {
               <br />
               Criminal record: No
               <br />
-              Are you blacklisted or have any credit issues: No"
+              Are 0.you blacklisted or have any credit issues: No"
               <br />
             </p>
           ),
           showBodyImage: true,
-          bodyImage: 'image.jpeg',
+          bodyImage: 'src/components/pages/image.jpeg',
         },
         {
           cardName: 'About Me',
@@ -123,14 +122,6 @@ const Resume = ({ title }) => {
       ]}
     />
   );
-};
-
-Resume.defaultProps = {
-  title: 'Have a look !',
-};
-
-Resume.propTypes = {
-  title: PropTypes.string.isRequired,
 };
 
 export default Resume;

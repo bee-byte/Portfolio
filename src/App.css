@@ -4,7 +4,23 @@
 :root {
   --primary-color: #babdbf;
   --dark-color: #101011;
-  --light-color: #f4f4f4;
+  --light-color: #ffffff;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-danger {
+  color: var(--danger-color);
 }
 
 * {

@@ -1,60 +1,95 @@
 import React from 'react';
-import './Contact.css';
+import axios from 'axios';
 
-const Contact = () => {
-  return (
-    <div>
-      <h1>This is my contact details</h1>
-      <form action="Put email reference here" method="POST">
-        <div className="form-group">
-          <div className="row">
-            <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <input
-                type="text"
-                name="name"
-                className="form-control form-control-lg"
-                id="name"
-                placeholder="Name"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="form-group hidden">
-          <div className="row">
-            <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <input
-                type="email"
-                name="_replyto"
-                className="form-control form-control-lg"
-                id="exampleFormControlInput1"
-                placeholder="Your email"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="form-group hiddenRight">
-          <div className="row">
-            <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <textarea
-                name="message"
-                className="form-control form-control-lg"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                placeholder="Write your message..."
-              />
-            </div>
-          </div>
-        </div>
-        <div className="row text-md-right text-sm-center">
-          <div className="col-12 col-sm-12 col-md-6 mx-auto">
-            <button type="submit" className="btn btn-primary mb-2 hidden">
-              Submit
-            </button>
-          </div>
-        </div>
-      </form>
-    </div>
-  );
-};
+class MyForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+    };
+  }
 
-export default Contact;
+  handleSubmit(e) {
+    e.preventDefault();
+    axios({
+      method: 'POST',
+      url: 'http://localhost:3000/send',
+      data: this.state,
+    }).then((response) => {
+      if (response.data.status === 'success') {
+        alert('Message Sent.');
+        this.resetForm();
+      } else if (response.data.status === 'fail') {
+        alert('Message failed to send.');
+      }
+    });
+  }
+
+  resetForm() {
+    this.setState({ name: '', email: '', message: '' });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <form
+          id="contact-form"
+          onSubmit={this.handleSubmit.bind(this)}
+          method="POST"
+          action="brittneybee82@gmail.com"
+        >
+          <div className="form-group">
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              value={this.state.name}
+              onChange={this.onNameChange.bind(this)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+              value={this.state.email}
+              onChange={this.onEmailChange.bind(this)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea
+              className="form-control"
+              rows="5"
+              id="message"
+              value={this.state.message}
+              onChange={this.onMessageChange.bind(this)}
+            />
+          </div>
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    );
+  }
+
+  onNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
+
+  onEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
+
+  onMessageChange(event) {
+    this.setState({ message: event.target.value });
+  }
+}
+
+export default MyForm;

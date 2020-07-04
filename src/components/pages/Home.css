@@ -1,16 +1,19 @@
 /* Text Styles*/
 
-h1 {
-  color: rgb(22, 21, 21);
-  text-align: center;
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-p {
-  color: white;
+
+.homeContent {
+  color: #3a3a3a;
   text-align: center;
+  margin-left: 3rem;
 }
 
 /* Center All */
-.all-center {
+/* .all-center {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -18,9 +21,9 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
-.image {
+.home-image {
   background-image: url(./image.jpeg);
   background-position: left;
   width: 500px;

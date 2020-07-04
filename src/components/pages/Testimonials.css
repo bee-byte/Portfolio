@@ -1,10 +1,10 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5 {
   color: white;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -13,21 +13,44 @@ h5 {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+ul {
+  display: flex;
+}
+ul li {
+  margin: 0 1em;
+}
 
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
+  /* padding: 16px; */
   position: relative;
 }
-
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 200px;
+.horizontal {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0 3px 3px 0;
+}
+.card-image {
+  height: 290px;
 }
 
+.card-image img {
+  width: 200px;
+  height: 290px;
+}
+.card-content {
+  padding: 1rem;
+}
+
+.card-content p,
+.card-content .header {
+  color: #666;
+}
+
+.card-content .header {
+  padding-bottom: 10px;
+}
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {

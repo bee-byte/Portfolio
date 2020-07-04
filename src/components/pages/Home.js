@@ -5,9 +5,13 @@ import image from './image.jpeg';
 const Home = () => {
   return (
     <Fragment>
-      <h1>Hi . I'm Brittney Bowers</h1>
-      <p>A junior frontend developer</p>
-      <img src={image} alt="img" />
+      <div className="homeContainer">
+        <img className="home-image" src={image} alt="img" />
+        <div className="homeContent">
+          <h1 className="home-heading">Hi . I'm Brittney Bowers</h1>
+          <p className="home-text">A junior frontend developer</p>
+        </div>
+      </div>
     </Fragment>
   );
 };

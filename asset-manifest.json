@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/bee-byte/Portfolio/static/css/main.5f6b3e62.chunk.css",
-    "main.js": "/bee-byte/Portfolio/static/js/main.345be281.chunk.js",
-    "main.js.map": "/bee-byte/Portfolio/static/js/main.345be281.chunk.js.map",
+    "main.css": "/bee-byte/Portfolio/static/css/main.98bc10ee.chunk.css",
+    "main.js": "/bee-byte/Portfolio/static/js/main.b60b658b.chunk.js",
+    "main.js.map": "/bee-byte/Portfolio/static/js/main.b60b658b.chunk.js.map",
     "runtime-main.js": "/bee-byte/Portfolio/static/js/runtime-main.13ce58ee.js",
     "runtime-main.js.map": "/bee-byte/Portfolio/static/js/runtime-main.13ce58ee.js.map",
     "static/css/2.8ba139af.chunk.css": "/bee-byte/Portfolio/static/css/2.8ba139af.chunk.css",
-    "static/js/2.7cd92f5b.chunk.js": "/bee-byte/Portfolio/static/js/2.7cd92f5b.chunk.js",
-    "static/js/2.7cd92f5b.chunk.js.map": "/bee-byte/Portfolio/static/js/2.7cd92f5b.chunk.js.map",
+    "static/js/2.2461b4b7.chunk.js": "/bee-byte/Portfolio/static/js/2.2461b4b7.chunk.js",
+    "static/js/2.2461b4b7.chunk.js.map": "/bee-byte/Portfolio/static/js/2.2461b4b7.chunk.js.map",
     "index.html": "/bee-byte/Portfolio/index.html",
-    "precache-manifest.95486ea24103db44fe2e866860e8ae18.js": "/bee-byte/Portfolio/precache-manifest.95486ea24103db44fe2e866860e8ae18.js",
+    "precache-manifest.390b944f48060e62879ad54a97c1a645.js": "/bee-byte/Portfolio/precache-manifest.390b944f48060e62879ad54a97c1a645.js",
     "service-worker.js": "/bee-byte/Portfolio/service-worker.js",
     "static/css/2.8ba139af.chunk.css.map": "/bee-byte/Portfolio/static/css/2.8ba139af.chunk.css.map",
-    "static/css/main.5f6b3e62.chunk.css.map": "/bee-byte/Portfolio/static/css/main.5f6b3e62.chunk.css.map",
-    "static/js/2.7cd92f5b.chunk.js.LICENSE.txt": "/bee-byte/Portfolio/static/js/2.7cd92f5b.chunk.js.LICENSE.txt",
+    "static/css/main.98bc10ee.chunk.css.map": "/bee-byte/Portfolio/static/css/main.98bc10ee.chunk.css.map",
+    "static/js/2.2461b4b7.chunk.js.LICENSE.txt": "/bee-byte/Portfolio/static/js/2.2461b4b7.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bee-byte/Portfolio/static/media/image.2f178e1e.jpg",
     "static/media/Home.css": "/bee-byte/Portfolio/static/media/image.b399fa0e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.13ce58ee.js",
     "static/css/2.8ba139af.chunk.css",
-    "static/js/2.7cd92f5b.chunk.js",
-    "static/css/main.5f6b3e62.chunk.css",
-    "static/js/main.345be281.chunk.js"
+    "static/js/2.2461b4b7.chunk.js",
+    "static/css/main.98bc10ee.chunk.css",
+    "static/js/main.b60b658b.chunk.js"
   ]
 }

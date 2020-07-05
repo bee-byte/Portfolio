@@ -1,95 +1,52 @@
 import React from 'react';
-import axios from 'axios';
 
-class MyForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: '',
-    };
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-    axios({
-      method: 'POST',
-      url: 'http://localhost:3000/send',
-      data: this.state,
-    }).then((response) => {
-      if (response.data.status === 'success') {
-        alert('Message Sent.');
-        this.resetForm();
-      } else if (response.data.status === 'fail') {
-        alert('Message failed to send.');
-      }
-    });
-  }
-
-  resetForm() {
-    this.setState({ name: '', email: '', message: '' });
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <form
-          id="contact-form"
-          onSubmit={this.handleSubmit.bind(this)}
-          method="POST"
-          action="brittneybee82@gmail.com"
-        >
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              className="form-control"
-              id="name"
-              value={this.state.name}
-              onChange={this.onNameChange.bind(this)}
-            />
+const Contact = () => {
+  return (
+    <footer className="page-footer">
+      <div className="container">
+        <div className="row">
+          <div className="col l6 s12">
+            <h5 className="white-text">Footer Content</h5>
+            <p className="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
           </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              id="email"
-              aria-describedby="emailHelp"
-              value={this.state.email}
-              onChange={this.onEmailChange.bind(this)}
-            />
+          <div className="col l4 offset-l2 s12">
+            <h5 className="white-text">Links</h5>
+            <ul>
+              <li>
+                <a className="grey-text text-lighten-3" href="#!">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <a className="grey-text text-lighten-3" href="#!">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <a className="grey-text text-lighten-3" href="#!">
+                  Link 3
+                </a>
+              </li>
+              <li>
+                <a className="grey-text text-lighten-3" href="#!">
+                  Link 4
+                </a>
+              </li>
+            </ul>
           </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea
-              className="form-control"
-              rows="5"
-              id="message"
-              value={this.state.message}
-              onChange={this.onMessageChange.bind(this)}
-            />
-          </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </form>
+        </div>
       </div>
-    );
-  }
-
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
-}
-
-export default MyForm;
+      <div className="footer-copyright">
+        <div className="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">
+            More Links
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+};
+export default Contact;

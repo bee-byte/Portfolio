@@ -41,33 +41,17 @@ const Testimonials = () => {
             </div>
 
             <div className="card-content">
-              <h3 className="header">Saadiq Ryklief</h3>
+              <h3 className="header">Oslin</h3>
               <p>
                 I am a very simple card. I am good at containing small bits of
                 information.
               </p>
             </div>
           </div>
-          {/* </div> */}
-          {/* </div> */}
         </li>
       </ul>
     </div>
   );
 };
-
-// Testimonials.defaultProps = {
-//   image: 'image.jepg',
-//   name: '',
-//   position: '',
-//   testimonialMessage: '',
-// };
-
-// Testimonials.propTypes = {
-//   image: PropTypes.object.isRequired,
-//   name: PropTypes.string.isRequired,
-//   position: PropTypes.string.isRequired,
-//   testimonialMessage: PropTypes.string.isRequired,
-// };
 
 export default Testimonials;

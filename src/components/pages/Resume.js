@@ -1,7 +1,14 @@
 import React from 'react';
 import './Resume.css';
+import ProgressBar from './ProgressBar';
 
 import { CardSlide } from 'react-card-slide/dist';
+
+const Data = [
+  { bgcolor: '#6a1b9a', completed: 60 },
+  { bgcolor: '#00695c', completed: 30 },
+  { bgcolor: '#ef6c00', completed: 53 },
+];
 
 const Resume = () => {
   return (
@@ -118,6 +125,20 @@ const Resume = () => {
           ),
           showBodyImage: true,
           bodyImage: 'https://via.placeholder.com/950x350',
+        },
+        {
+          cardName: 'Programming Languages I know :',
+          cardDescription: (
+            <div className="ProgressBar">
+              {Data.map((item, idx) => (
+                <ProgressBar
+                  key={idx}
+                  bgcolor={item.bgcolor}
+                  completed={item.completed}
+                />
+              ))}
+            </div>
+          ),
         },
       ]}
     />

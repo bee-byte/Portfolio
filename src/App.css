@@ -1,28 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* Global Styles */
-:root {
-  --primary-color: #babdbf;
-  --dark-color: #101011;
-  --light-color: #ffffff;
-}
-
-.text-primary {
-  color: var(--primary-color);
-}
-
-.text-dark {
-  color: var(--dark-color);
-}
-
-.text-success {
-  color: var(--success-color);
-}
-
-.text-danger {
-  color: var(--danger-color);
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -41,7 +18,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -52,15 +29,3 @@ a:hover {
 ul {
   list-style: none;
 }
-
-/* Buttons */
-/* .bg-primary,
-.alert-primary {
-  background: var(--primary-color);
-  color: #fff;
-}
-
-.bg-light,
-.badge-light {
-  border: #ccc solid 1px;
-} */

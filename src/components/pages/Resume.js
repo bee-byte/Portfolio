@@ -55,7 +55,7 @@ const Resume = () => {
             </p>
           ),
           showBodyImage: true,
-          bodyImage: 'image.jpg',
+          bodyImage: 'https://i.postimg.cc/m2Yjnr8s/image.jpg',
         },
         {
           cardName: 'Things im passionate about:',

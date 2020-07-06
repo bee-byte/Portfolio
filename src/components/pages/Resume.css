@@ -28,3 +28,7 @@ p {
   padding: 5px;
   width: 200px;
 } */
+
+.card-slide-item .card .card-body .card-body-total {
+  display: none;
+}

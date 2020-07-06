@@ -1,34 +1,35 @@
 /* Text Styles*/
 
-/* h1 {
-  color: white;
-} */
+.Education {
+  color: #3a3a3a;
+}
+.Workplace {
+  color: #3a3a3a;
+}
+.PersonalInfo {
+  color: #3a3a3a;
+}
 p {
   color: rgb(10, 10, 10);
   /* text-align: center; */
 }
 
-/* Center All */
-/* .all-center {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-} */
-
-.card {
-  position: relative;
+/* Hide the count on the slider, and the card header icon */
+.card-slide-item .card .card-body .card-body-total,
+.card-slide-item .card .card-header .card-header-icon {
+  display: none;
 }
 
-/* .img {
-  border: 1px solid #ddd;
+.card-slide {
+  /* background: #fff; */
+  width: 100%;
+  overflow: hidden;
   border-radius: 4px;
-  padding: 5px;
-  width: 200px;
-} */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+  background-color: unset !important;
+  margin-bottom: 30px;
+}
 
-.card-slide-item .card .card-body .card-body-total {
-  display: none;
+.card-slide-item .card .card-header .card-header-title {
+  margin: 0 !important;
 }

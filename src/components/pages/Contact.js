@@ -1,63 +1,31 @@
 import React from 'react';
+import ContactFooter from './ContactFooter';
 
 const Contact = () => {
   return (
-    <form action="https://formspree.io/xnqggpkk" method="POST">
-      <label>
-        Name:
-        <input type="text" name="name" required />
-      </label>
-      <label>
-        Message
-        <textarea name="message" required />
-      </label>
-      <button type="submit">Send</button>
-    </form>
-    // <footer className="page-footer">
-    //   <div className="container">
-    //     <div className="row">
-    //       <div className="col l6 s12">
-    //         <h5 className="white-text">Footer Content</h5>
-    //         <p className="grey-text text-lighten-4">
-    //           You can use rows and columns here to organize your footer content.
-    //         </p>
-    //       </div>
-    //       <div className="col l4 offset-l2 s12">
-    //         <h5 className="white-text">Links</h5>
-    //         <ul>
-    //           <li>
-    //             <a className="grey-text text-lighten-3" href="#!">
-    //               Link 1
-    //             </a>
-    //           </li>
-    //           <li>
-    //             <a className="grey-text text-lighten-3" href="#!">
-    //               Link 2
-    //             </a>
-    //           </li>
-    //           <li>
-    //             <a className="grey-text text-lighten-3" href="#!">
-    //               Link 3
-    //             </a>
-    //           </li>
-    //           <li>
-    //             <a className="grey-text text-lighten-3" href="#!">
-    //               Link 4
-    //             </a>
-    //           </li>
-    //         </ul>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div className="footer-copyright">
-    //     <div className="container">
-    //       © 2020 Copyright Text
-    //       <a class="grey-text text-lighten-4 right" href="#!">
-    //         More Links
-    //       </a>
-    //     </div>
-    //   </div>
-    // </footer>
+    <div>
+      <form
+        className="myForm"
+        action="https://formspree.io/xnqggpkk"
+        method="POST"
+      >
+        <label htmlFor="first_name">First Name</label>
+        <input name="first_name" type="text" required />
+        <br />
+        <label htmlFor="last_name">Last Name</label>
+        <input name="last_name" type="text" required />
+        <br />
+        <label htmlFor="email">Email</label>
+        <input name="email" type="email" required />
+        <br />
+        <label htmlFor="message">Message</label>
+        <br />
+        <textarea name="message" cols="30" rows="10" required></textarea>
+        <div className="center">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
   );
 };
 export default Contact;

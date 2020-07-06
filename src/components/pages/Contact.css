@@ -1,9 +1,6 @@
-.container {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
-main {
-  flex: 1 0 auto;
+.myForm {
+  border-radius: 15px;
+  margin-left: 15px;
 }

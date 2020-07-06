@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = ({ icon, title }) => {
   return (
-    <nav className="navbar bg-primary">
+    <nav className="navbar">
       <h1 className="NavbarHeading">
         {title}
         <i className={icon}>favorite_border</i>

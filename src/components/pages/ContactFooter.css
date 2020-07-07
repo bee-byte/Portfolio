@@ -1,0 +1,16 @@
+.page-footer {
+  display: flex;
+  min-height: 2vh;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  border: 2px #fffafa solid;
+}
+
+.contact-details {
+  text-align: right;
+}
+main {
+  flex: 1 0 auto;
+}

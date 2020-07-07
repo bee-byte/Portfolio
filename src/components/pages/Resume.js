@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import ProgressBar from './ProgressBar';
+import './ProgressBar.css';
 import './Resume.css';
 
 import { CardSlide } from 'react-card-slide/dist';
@@ -139,11 +141,7 @@ const Resume = () => {
         },
         {
           cardName: 'Programming Languages I know :',
-          cardDescription: (
-            <div className="progress">
-              <div className="determinate"></div>
-            </div>
-          ),
+          cardDescription: <ProgressBar />,
         },
       ]}
     />

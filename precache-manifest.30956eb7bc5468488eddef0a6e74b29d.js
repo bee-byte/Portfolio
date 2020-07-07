@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb81e2e8775322ffd490711e3804fbd2",
+    "revision": "70bd67590727ed251fb719435315a71a",
     "url": "/bee-byte/Portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bee-byte/Portfolio/static/css/2.8ba139af.chunk.css"
   },
   {
-    "revision": "6eb0f09b41febf4f286c",
-    "url": "/bee-byte/Portfolio/static/css/main.514016fd.chunk.css"
+    "revision": "fedf4cf469e0d78c9665",
+    "url": "/bee-byte/Portfolio/static/css/main.b6c55dd2.chunk.css"
   },
   {
     "revision": "96175432019f29f028d9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bee-byte/Portfolio/static/js/2.de559d43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eb0f09b41febf4f286c",
-    "url": "/bee-byte/Portfolio/static/js/main.ffa9c9d8.chunk.js"
+    "revision": "fedf4cf469e0d78c9665",
+    "url": "/bee-byte/Portfolio/static/js/main.17496505.chunk.js"
   },
   {
     "revision": "4707742fefeb46e1414d",

@@ -14,3 +14,11 @@
 main {
   flex: 1 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

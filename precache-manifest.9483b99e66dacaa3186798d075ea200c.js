@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9afe511869655c496099c5611a76bbf3",
+    "revision": "89f184a38c023dea181eb559449a77e5",
     "url": "/bee-byte/Portfolio/index.html"
   },
   {
-    "revision": "7dbdaa703bf0178107de",
+    "revision": "a4749bff8c65c6e2a3c6",
     "url": "/bee-byte/Portfolio/static/css/2.8ba139af.chunk.css"
   },
   {
-    "revision": "31de6081a2b141aaf14f",
-    "url": "/bee-byte/Portfolio/static/css/main.df6c34d8.chunk.css"
+    "revision": "c9773246feacebb652c1",
+    "url": "/bee-byte/Portfolio/static/css/main.8ccb80df.chunk.css"
   },
   {
-    "revision": "7dbdaa703bf0178107de",
-    "url": "/bee-byte/Portfolio/static/js/2.0fe4d4c7.chunk.js"
+    "revision": "a4749bff8c65c6e2a3c6",
+    "url": "/bee-byte/Portfolio/static/js/2.cf845aa5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/bee-byte/Portfolio/static/js/2.0fe4d4c7.chunk.js.LICENSE.txt"
+    "url": "/bee-byte/Portfolio/static/js/2.cf845aa5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31de6081a2b141aaf14f",
-    "url": "/bee-byte/Portfolio/static/js/main.64418581.chunk.js"
+    "revision": "c9773246feacebb652c1",
+    "url": "/bee-byte/Portfolio/static/js/main.d0645a89.chunk.js"
   },
   {
     "revision": "4707742fefeb46e1414d",

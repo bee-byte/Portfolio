@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/bee-byte/Portfolio" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/Resume" component={Resume} />
           <Route path="/Testimonials" component={Testimonials} />
           <Route path="/Contact" component={Contact} />

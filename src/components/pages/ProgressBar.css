@@ -2,10 +2,26 @@
   color: #3a3a3a;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
+.skill-container {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.skill-name {
+  font-size: 15px;
+}
+
+.skill-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* @media screen and (max-width: 600px) {
+  .row {
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
-}
+} */

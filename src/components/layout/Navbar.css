@@ -6,6 +6,7 @@
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
+  height: 5%;
   opacity: 0.9;
   margin-bottom: 1rem;
 }
@@ -25,7 +26,7 @@
 }
 
 .navbar a:hover {
-  color: var(--dark-color);
+  color: black;
 }
 
 .navbar .welcome span {

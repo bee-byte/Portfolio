@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import ProgressBar from './ProgressBar';
-import './ProgressBar.css';
+import ProgressBar from '../layout/ProgressBar';
+import '../layout/ProgressBar.css';
 import './Resume.css';
 
 import { CardSlide } from 'react-card-slide/dist';

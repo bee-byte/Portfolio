@@ -17,11 +17,3 @@
   width: auto;
   object-fit: contain;
 }
-
-/* @media screen and (max-width: 600px) {
-  .row {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-} */

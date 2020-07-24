@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import './Contact.css';
-import ContactFooter from './ContactFooter';
-import './ContactFooter.css';
+import ContactFooter from '../layout/ContactFooter';
+import '../layout/ContactFooter.css';
 
 const Contact = () => {
   return (

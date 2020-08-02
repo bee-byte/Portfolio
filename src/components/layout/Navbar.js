@@ -5,31 +5,33 @@ import './Navbar.css';
 
 const Navbar = ({ icon, title }) => {
   return (
-    <nav className="navbar">
-      <h1 className="NavbarHeading">
-        {title}
-        <i className={icon}>favorite_border</i>
-      </h1>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/Testimonials">Testimonials</Link>
-        </li>
-        <li>
-          <Link to="/Resume">Resume</Link>
-        </li>
-        <li>
-          <Link to="/Contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="page">
+      <nav className="navbar">
+        <h1 className="NavbarHeading">
+          {title}
+          <i className={icon}>favorite_border</i>
+        </h1>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Testimonials">Testimonials</Link>
+          </li>
+          <li>
+            <Link to="/Resume">Resume</Link>
+          </li>
+          <li>
+            <Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
 Navbar.defaultProps = {
-  title: 'Welcome to my World!',
+  title: 'Welcome To My World!',
   icon: 'material-icons',
 };
 

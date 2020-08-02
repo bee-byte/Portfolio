@@ -3,7 +3,7 @@ import './Testimonials.css';
 
 const Testimonials = () => {
   return (
-    <div className="row">
+    <div className="page">
       <ul>
         <li>
           <div className="card horizontal">

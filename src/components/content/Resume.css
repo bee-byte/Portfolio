@@ -1,5 +1,5 @@
 /* Text Styles*/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .Education {
   color: #3a3a3a;
@@ -30,15 +30,19 @@ p {
   margin-bottom: 30px;
   margin-top: 30px;
   block-size: auto;
+  font-family: 'Raleway', sans-serif;
+  font-variant: initial;
 }
 
 .card-slide-item .card .card-header .card-header-title {
   margin: 0 !important;
 }
 
+.card-slide .card {
+  margin-left: 100x;
+}
 .card-body-description {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: initial;
 }
 
 .img-fluid {

@@ -6,7 +6,7 @@ import '../layout/ContactFooter.css';
 const Contact = () => {
   return (
     <Fragment>
-      <div className="row">
+      <div className="page">
         <div className="form-container">
           <h2>Need a Developer ? Get In Touch .</h2>
           <br />

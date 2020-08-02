@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
-import ProgressBar from '../layout/ProgressBar';
-import '../layout/ProgressBar.css';
+import Skills from '../layout/Skills';
+import ProjectInfo from '../layout/ProjectInfo';
+import '../layout/Skills.css';
 import './Resume.css';
 
 import { CardSlide } from 'react-card-slide/dist';
@@ -60,7 +61,7 @@ const Resume = () => {
           cardName: 'Things im passionate about:',
           cardDescription: (
             <p>
-              Playing Video Games <br />
+              Playing video games <br />
                Reading
               <br />
                Watching movies
@@ -127,8 +128,7 @@ const Resume = () => {
                 <br />
                 Duration: 3 months Role: Sales Agent
                 <br />
-                Duties: (Maximum 4) ● Calling customers to complete funeral
-                policy
+                Duties: ● Calling customers to complete funeral policy
                 <br />
                 applications telephonically. ● Dealing with warm sales calls.
                 <br />
@@ -141,7 +141,11 @@ const Resume = () => {
         },
         {
           cardName: 'Programming Languages I know :',
-          cardDescription: <ProgressBar />,
+          cardDescription: <Skills />,
+        },
+        {
+          cardName: 'My Projects :',
+          cardDescription: <ProjectInfo />,
         },
       ]}
     />

@@ -5,13 +5,10 @@ const Projects = ({ project }) => {
   return (
     <div className="project-container">
       <h3 className="name-name">{project.name}</h3>
-      <img
-        className="img-fluid"
-        src={project.image}
-        alt={project.name}
-        link={project.links}
-      />
-      <p className="project-links"></p>
+      <a href={project.link}>
+        <img className="img-fluid" src={project.image} alt={project.name} />
+      </a>
+      <p link={project.link}></p>
     </div>
   );
 };

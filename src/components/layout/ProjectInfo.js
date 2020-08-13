@@ -20,7 +20,7 @@ const ProjectData = [
   {
     name: 'Ecommerce-site',
     image: 'https://i.postimg.cc/fRRR2K8t/ecommerce-imh.png',
-    link: 'https://github.com/bee-byte/Ecommerce-Site',
+    link: 'https://sport-inc.herokuapp.com/',
   },
 ];
 
